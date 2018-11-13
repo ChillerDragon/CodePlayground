@@ -1,0 +1,22 @@
+#How to kill a python server
+#some ways collected by ChillerDragon in stackoverflow
+
+
+#------ way1 -----
+
+#check for running servers or something like that
+ps -fA | grep python
+
+#kill the running server with the id shown in the previous cmd
+
+kill 5677
+
+#------ way2 ----
+
+#idk what it does but it helped once xd
+#last number is the port you want to kill
+
+sudo lsof -i:8303
+
+
+
